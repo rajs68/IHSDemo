@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -30,11 +30,15 @@ namespace IHSDemo
 
                 page++; index = page * capacity;
             }
+
+            Logger.WriteLine("---- End ----");
         }
 
         void LoadData(string[] keys, int index, int count)
         {
             if (null == keys || keys.Length == 0) return;
+
+            Logger.WriteLine();
 
             var s1 = Environment.NewLine + string.Join(Environment.NewLine, keys);
             Logger.WriteLine("Start load data " + "[" + (index + 1) + " + " + count + "]:" + s1);
@@ -48,8 +52,6 @@ namespace IHSDemo
 
                 SavePrdHeader(dtPrdHeader);
                 SaveMothlyPrd(dtMonthlyPrd);
-
-                Logger.WriteLine("load complate.");
             }
             catch (Exception ex)
             {
