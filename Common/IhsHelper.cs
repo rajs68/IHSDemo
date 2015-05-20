@@ -1,4 +1,4 @@
-﻿using IHSEnergy.Enerdeq.ExportBuilder;
+using IHSEnergy.Enerdeq.ExportBuilder;
 using IHSEnergy.Enerdeq.QueryBuilder;
 using IHSEnergy.Enerdeq.Session;
 using System;
@@ -72,10 +72,10 @@ namespace IHSDemo
 
             if (null != jobId && !string.IsNullOrEmpty(jobId))
             {
-                System.Threading.Thread.Sleep(500);
+                System.Threading.Thread.Sleep(600);
                 while (!eb.IsComplete(jobId))
                 {
-                    System.Threading.Thread.Sleep(1000);
+                    System.Threading.Thread.Sleep(600);
                 }
 
                 var data = eb.Retrieve(jobId, true);
