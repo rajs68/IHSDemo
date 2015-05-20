@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +8,6 @@ namespace IHSDemo
 {
     static class Logger
     {
-        public static void Write(string log)
-        {
-            Console.Write(log);
-        }
-
         public static void WriteLine(string text, params object[] args)
         {
             string log = text;
@@ -21,6 +16,11 @@ namespace IHSDemo
                 log = string.Format(text, args);
             }
             Console.WriteLine("[" + DateTime.Now.ToString("yy-MM-dd HH:mm:ss") + "] " + log);
+        }
+
+        public static void WriteLine()
+        {
+            Console.WriteLine();
         }
     }
 }
