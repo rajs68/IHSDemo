@@ -1,0 +1,14 @@
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\IHSDemo.exe.config
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\IHSDemo.exe
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\IHSDemo.pdb
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\EPPlus.dll
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\IHSEnergy.Enerdeq.ExportBuilder.dll
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\IHSEnergy.Enerdeq.QueryBuilder.dll
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\IHSEnergy.Enerdeq.Session.dll
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\bin\Debug\log4net.dll
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\obj\Debug\IHSDemo.exe
+C:\TFSWork\Kenny\XProjects\ISA\Wss4Isa\IHSDemo\obj\Debug\IHSDemo.pdb
+C:\Users\devadmin\Documents\IHS\IHSDemo\IHSDemo\bin\Debug\IHSDemo.exe.config
+C:\Users\devadmin\Documents\IHS\IHSDemo\IHSDemo\obj\Debug\IHSDemo.exe
+C:\Users\devadmin\Documents\IHS\IHSDemo\IHSDemo\obj\Debug\IHSDemo.pdb
